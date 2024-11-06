@@ -1,0 +1,62 @@
+ *****************************************************
+  VOLUME-YIELD ELASTICITY                 
+ 
+  * version 3
+  * simulaneous eveporation-yield in dry season
+  * stochastic variable (Qa) generated in the program
+                                                      
+  RESERVOIR SEDIMENTATION AND WATER AVAILABILITY     
+                                                      
+  Departamento de Engenharia Hidraulica e Ambiental  
+  Universidade Federal do Ceara                      
+  Jose Carlos de Araujo, May 2004                    
+ *****************************************************
+ 
+ 
+ Input data 
+ ---------------------------------------------------------
+ Title: Santo_Anastacio_1918
+ ---------------------------------------------------------
+ Input file ..................................... sa1918.txt          
+ Output file .................................... sa1918.out          
+ Mean inflow discharge, hm3/a, ..................     3.20
+ Coefficient of variation annual discharge ......     0.80
+ Morphological alfa parameter ...................  2963.00
+ Evaporation of the dry period, m/a, ............     1.31
+ Maximum reservoir storage capacity, hm3, .......     0.51
+ Minimum regular operational volume, hm3, .......     0.03
+ Initial volume first trial, hm3, ...............     0.25
+ Number of yield discharges steps, ..............    20
+ Minimum yield discharge, hm3/a, ................     0.10
+ Maximum yield discharge, hm3/a, ................     0.37
+ Number of simulations in stochastic procedure ..  5000
+ ---------------------------------------------------------
+ 
+ Output data 
+ ---------------------------------------------------------
+ Qr (hm3/a)   G(%)   Qrm(hm3/a)   Qem(hm3/a)   Qsm(hm3/a) 
+ ---------------------------------------------------------
+    0.100     99.1       0.100       0.257       2.852
+    0.113     98.9       0.113       0.253       2.754
+    0.127     98.5       0.126       0.249       2.826
+    0.141     97.8       0.139       0.245       2.815
+    0.154     97.6       0.152       0.241       2.796
+    0.168     96.9       0.165       0.237       2.741
+    0.181     97.0       0.178       0.233       2.843
+    0.194     96.7       0.191       0.229       2.749
+    0.208     95.9       0.204       0.225       2.783
+    0.222     95.9       0.217       0.221       2.744
+    0.235     95.3       0.229       0.216       2.735
+    0.249     94.7       0.242       0.212       2.678
+    0.262     94.5       0.255       0.207       2.733
+    0.275     93.5       0.267       0.201       2.741
+    0.289      0.0       0.144       0.243       2.801
+    0.303      0.0       0.151       0.241       2.771
+    0.316      0.0       0.158       0.238       2.762
+    0.330      0.0       0.165       0.236       2.802
+    0.343      0.0       0.172       0.235       2.784
+    0.356      0.0       0.178       0.232       2.789
+    0.370      0.0       0.185       0.230       2.701
+ ---------------------------------------------------------
+ 
+ Program concluded successfully.
